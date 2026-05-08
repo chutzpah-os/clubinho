@@ -89,8 +89,10 @@ input, select { font-family: var(--font-sans); }
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .hide-mobile { display: none !important; }
-  .nav-links   { display: none !important; }
-  .nav-inner   { padding: 14px 20px !important; }
+  .nav-links      { display: none !important; }
+  .nav-cta        { display: none !important; }
+  .nav-hamburger  { display: flex !important; }
+  .nav-inner      { padding: 14px 20px !important; }
 
   .hero-grid       { grid-template-columns: 1fr !important; }
   .chat-form-grid  { grid-template-columns: 1fr !important; }
